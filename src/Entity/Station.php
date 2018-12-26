@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 /**
  * @package App\Entity
  */
@@ -55,7 +57,7 @@ class Station
     /**
      * @var array
      */
-    protected $synonyms = [];
+    protected $synonyms;
 
     /**
      * @return string
